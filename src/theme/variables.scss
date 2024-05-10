@@ -1,0 +1,42 @@
+// styles.scss
+@import "~@ionic/angular/css/core.css";
+
+// Variables
+$primary-color: #488aff;
+$secondary-color: #32db64;
+$danger-color: #f53d3d;
+$light-color: #f4f4f4;
+$dark-color: #222;
+
+// Ionic Overrides
+ion-content {
+    --background: $light-color;
+}
+
+ion-header,
+ion-footer {
+    ion-toolbar {
+        --background: $primary-color;
+        --color: #fff;
+    }
+}
+
+// Custom Styles
+.page-home {
+    .header {
+        text-align: center;
+        padding: 15px;
+        color: $primary-color;
+    }
+
+    .content {
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 10px;
+        color: $secondary-color;
+    }
+}
